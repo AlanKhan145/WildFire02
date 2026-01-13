@@ -1,0 +1,4 @@
+train:
+  epochs: 20
+  steps_per_epoch: 300
+  thr_prob: 0.7

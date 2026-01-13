@@ -1,0 +1,10 @@
+search_space:
+  k_patch: [7, 9]
+  n_layers: [2, 3]
+  d_hidden: [64, 96]
+  dropout: [0.1, 0.2]
+  lr: [0.001, 0.0005]
+  pos_weight: [3.0, 5.0]
+train:
+  steps_per_epoch: 200
+  thr_prob: 0.7
